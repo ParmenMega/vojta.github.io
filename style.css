@@ -72,6 +72,8 @@ header>ul>li>a{
     color: blue;
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .mainConent{
     display: flex;
@@ -238,7 +240,8 @@ header>ul>li>a{
         align-items: center;
     }
     .novinkyText{
-        margin-top: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     .mainContentItems{
         display: flex;
