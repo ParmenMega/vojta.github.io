@@ -1,17 +1,8 @@
-/*html{
-    background-color: rgb(33, 33, 33);
-}
-*/
 body{
     display: flex;
     flex-direction: column;
     gap: 15px;
     font-family: sans-serif;
-    /*max-width: 80vw;
-    justify-self: center;
-    background-color: white;
-    border: 0.5vw solid black;
-    padding: 10px;*/
 }
 header>div>ul>li{
     list-style: none;
@@ -94,14 +85,14 @@ header>ul>li>a{
 .ContentRow{
     display: flex;
     flex-direction: row;
-    /*max-width: 1600px;
-    max-height: 300px;*/
 }
 .ContentRow2{
     display: flex;
     flex-direction: row;
-    /*max-width: 1600px;
-    max-height: 300px;*/
+}
+.ContentRowItem{
+    display: flex;
+    flex-direction: row;
 }
 .img{
     flex: 1;
@@ -211,7 +202,11 @@ header>ul>li>a{
     display: flex;
     justify-self: center;
     margin-top: 10px;
-    margin-left: 70px;
+    margin-left: 20px;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: center;
 }
 .links>ul>li{
     list-style: none;
@@ -242,13 +237,24 @@ header>ul>li>a{
         flex-direction: column;
         align-items: center;
     }
+    .novinkyText{
+        margin-top: 10px;
+    }
+    .mainContentItems{
+        display: flex;
+        flex-direction: column;
+    }
     .ContentRow{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .ContentRow2{
         display: flex;
         flex-direction: column;
+    }
+    .ContentRowItem{
+        display: flex;
+        flex-direction: column-reverse;
     }
     .aboutUsDiv{
         background-color: #a02341;
@@ -296,6 +302,11 @@ header>ul>li>a{
     }
 }
 @media only screen and (max-width:400px){
+    .menuDiv ul{
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+    }
     .contactContent{
         display: flex;
         flex-direction: column;
@@ -303,10 +314,4 @@ header>ul>li>a{
     .linksDiv{
         margin-left: 0px;
     }
-    .menuDiv ul{
-        display: flex;
-        flex-direction: column;
-        margin-right: 40px;
-    }
-
 }
